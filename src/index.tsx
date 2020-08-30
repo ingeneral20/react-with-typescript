@@ -1,17 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
 import App from './App';
-import * as serviceWorker from './serviceWorker';
+ReactDOM.render(<App/>,  document.getElementById('root'));
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+//import {FunctionalComponent} from "./examples/functional-components";
+//ReactDOM.render(<FunctionalComponent/>,  document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+//import ClassExample from './examples/ClassExample';
+//ReactDOM.render(<ClassExample/>,  document.getElementById('root'));
+// setTimeout(function () {
+//     ReactDOM.unmountComponentAtNode(document.getElementById('root') as Element);
+// }, 10000);
+
+//import FormExample from './examples/FormExample';
+//ReactDOM.render(<FormExample/>,  document.getElementById('root'));
+
+//import RefExample from './examples/RefExample';
+//ReactDOM.render(<RefExample/>,  document.getElementById('root'));
+
+//import RouterExample from './examples/RouterExample';
+//ReactDOM.render(<RouterExample/>,  document.getElementById('root'));
+
+//import HttpExample from './examples/HttpExample';
+//ReactDOM.render(<HttpExample/>,  document.getElementById('root'));
